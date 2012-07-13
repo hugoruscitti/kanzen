@@ -27,6 +27,8 @@ Using Kanzen for Code Completion
     source_code = your_editor.get_source_code()  # str or unicode
     # The path is used to identify each module after analysis inside Kanzen
     path = '/path/to/the/file.py'
+    # If you provide a path, but an empty string for source_code, Kanzen will
+    # try to read the file from disk and get the source code.
     # Execute "analyze_file" to collect metadata and resolve types
     cc.analyze_file(path, source_code)
     
