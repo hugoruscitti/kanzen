@@ -1,7 +1,7 @@
 About
 =====
 
-This is the Code Completion module for **NINJA-IDE**
+This is the Code Completion module of **NINJA-IDE**
 
 
 Contact
